@@ -53,15 +53,18 @@ The logistic function is also known as  the sigmoid function. It is an S-shaped 
 Where, e is known as the base of the natural logarithms and realValue is represented as the original numerical real value that we want to convert or tranform.
 
 The conditional probability of the output variabale (y) :
+
 ![image](https://user-images.githubusercontent.com/73421334/169519858-cb2d8192-4e44-4700-ba86-d80aac3fb3cb.png)
 
 			 
 maximizing the likelihood of the model:
+
 ![image](https://user-images.githubusercontent.com/73421334/169519904-6386bada-3ec8-404a-9c0b-71ca93e54e67.png)
 
 			 
  
 Which can be restated as the minimization of the following regularized negative log-likelihood:
+
 ![image](https://user-images.githubusercontent.com/73421334/169519920-d58fd841-3c4e-46ea-a087-1e58875dd335.png)
 
 
@@ -141,8 +144,11 @@ Firstly, each individual model perform under training phase on the training data
 Steps involved in Working Mechanism of Blending Ensemble Model:
 
 Step-1: Training dataset is split into base train data, validation data and test data.
+
 Step-2: Train the individual models i.e., Decision Tree, Logistic Regression, Support Vector Machine (SVM), XG Boost, Artificial Neural Networks (ANN) on the training data of our dataset and perform predictions on validation set and test set data. The creation of new predictions made by this mechanism.
+
 Step-3: A Collective Blended Model, a new meta-classifier model is then fitted on validation/holdout set using individual model prediction attributes which are the results made by each individual model. For this, both actual features/attributes and new meta features from the holdout or validation  set will be used.
+
 Step-4: Finally, this trained collective blended model is used to perform the crucial final predictions on the test set data which involves the usage of original and new blended model (meta) features.
 	
 ![image](https://user-images.githubusercontent.com/73421334/169520164-5f6bfcce-6157-450a-b3da-c0bf2a634419.png)
