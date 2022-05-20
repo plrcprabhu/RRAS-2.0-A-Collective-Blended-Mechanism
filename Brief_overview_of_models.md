@@ -1,9 +1,15 @@
 Our Proposed Methodology involves the mechanism of the Collective Blended Model, which takes the use of the blending ensemble method. The following are the algorithms involved in our Collective Blended Model.
+
 ●	Decision Tree
+
 ●	Logistic Regression
+
 ●	Support Vector Machine
+
 ●	XG Boost
+
 ●	Artificial Neural Networks
+
 Every individual model provides results to some extent. But, the results provided by an individual model might not be optimal. To acquire optimal or better accurate results, there is a need to use a model which combines the properties of all individual models i.e, an ensemble model. So, we introduce a “Collective blended model” which involves the mechanism of the Blending ensemble method. Let us dive into the working process involved in each individual model.
 
 Detailed Overview of each individual model:
