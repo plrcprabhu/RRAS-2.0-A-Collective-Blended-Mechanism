@@ -1,0 +1,2 @@
+Used for storing the parameter weights that were obtained for each layer in the artificial neural network during the training phase of the Artificial Neural Network Model.
+By this, we don't need to train the ann model many times since the weights are stored in this checkpoint files. So, we need to simply load the the weights that were generated during ANN training phase.
