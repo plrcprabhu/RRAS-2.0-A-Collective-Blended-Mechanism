@@ -13,6 +13,7 @@ A decision tree is a hierarchical representation of all feasible solutions to a 
 
 
 
+![image](https://user-images.githubusercontent.com/73421334/169519610-9a83e9e1-8eab-4e5e-8121-59ce04eb7828.png)
 
 
 
