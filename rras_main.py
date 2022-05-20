@@ -165,7 +165,7 @@ model_5 = tf.keras.Sequential([
   tf.keras.layers.Dense(1, activation="sigmoid")
 ], name="model_USE_large_v5")
 
-ckpt_path="./train_model/ann_checkpoint.ckpt"
+ckpt_path="./ANN_train_model/ann_checkpoint.ckpt"
 
 
 # Compile model
